@@ -30,8 +30,8 @@ export default function Hero() {
      }
     </div>
    </div>
-   <div className="flex flex-1 justify-center items-center relative xl:min-h-screen max-xl:py-40 bg-primary bg-center bg-hero bg-cover">
-    <img width={610} height={500} src={bigImg} alt="shoes img" className="object-contain relative z-10" />
+   <div className="flex flex-1 justify-center items-center relative xl:min-h-screen max-xl:py-40 bg-primary bg-center bg-hero bg-cover ">
+    <img width={610} height={500} src={bigImg} alt="shoes img" className="object-contain relative z-10 " />
     <div className="absolute flex sm:gap-6 gap-4 -bottom-[5%]  max-sm:px-6">
      {
       shoes.map((shoe) => {
