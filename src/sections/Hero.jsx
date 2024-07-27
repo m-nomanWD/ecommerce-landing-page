@@ -34,8 +34,8 @@ export default function Hero() {
     <img width={610} height={500} src={bigImg} alt="shoes img" className="object-contain relative z-10 " />
     <div className="absolute flex sm:gap-6 gap-4 -bottom-[5%]  max-sm:px-6">
      {
-      shoes.map((shoe) => {
-       return <ShoeCard imgUrl={shoe} bigShoeImg={bigImg} toggleFun={(img) => {
+      shoes.map((shoe, index) => {
+       return <ShoeCard key={index} imgUrl={shoe} bigShoeImg={bigImg} toggleFun={(img) => {
         setBigImg(img)
 
        }} />

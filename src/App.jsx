@@ -3,7 +3,7 @@ import { Subscribe, CustomerReviews, Footer, Hero, PopulerProduct, Services, Spe
 import Navbar from './components/Navbar'
 export default function App() {
   return (
-    <main className='relative'>
+    <main className='relative scroll-smooth'>
       <Navbar />
       <section className='xl:padding-l wide:padding-l '>
         <Hero />
@@ -26,7 +26,7 @@ export default function App() {
       <section className='padding'>
         <Subscribe />
       </section>
-      <section className='padding'>
+      <section className='padding bg-black text-white'>
         <Footer />
       </section>
     </main>

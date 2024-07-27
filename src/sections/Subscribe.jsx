@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 export default function Subscribe() {
  return (
-  <section className="max-container flex max-lg:flex-col gap-10 items-center justify-center ">
+  <section id="contact-us" className="max-container flex max-lg:flex-col gap-10 items-center justify-center ">
    <h3 className="text-4xl font-palanquin font-bold ">
     Sign Up for
     <span className='text-coral-red'> Updates </span>& Newsletter
